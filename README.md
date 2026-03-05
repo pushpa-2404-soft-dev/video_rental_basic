@@ -119,7 +119,7 @@ Accessible by:
 
 ---
 
-## 🗄 Database Configuration
+## Database Configuration
 
 Update `application.properties`:
 
@@ -138,7 +138,7 @@ CREATE DATABASE rentvideobasic;
 
 ---
 
-## ▶ How To Run The Project
+## How To Run The Project
 
 ### 1 Clone Repository
 
