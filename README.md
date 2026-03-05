@@ -6,7 +6,7 @@ This project demonstrates authentication, role-based authorization, and CRUD ope
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 * Java 21
 * Spring Boot 
@@ -18,7 +18,7 @@ This project demonstrates authentication, role-based authorization, and CRUD ope
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 * Basic Authentication
 * Passwords stored using BCrypt hashing
@@ -30,7 +30,7 @@ This project demonstrates authentication, role-based authorization, and CRUD ope
 
 ---
 
-## 👥 User Roles & Access
+##  User Roles & Access
 
 | Endpoint                | Access           |
 | ----------------------- | ---------------- |
@@ -42,9 +42,9 @@ This project demonstrates authentication, role-based authorization, and CRUD ope
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
-### 1️⃣ Register User (Public)
+### 1 Register User (Public)
 
 **POST** `/api/auth/register`
 
@@ -64,7 +64,7 @@ If role is not provided → defaults to `CUSTOMER`.
 
 ---
 
-### 2️⃣ Login
+### 2 Login
 
 Uses **Basic Authentication Header**
 
@@ -82,7 +82,7 @@ admin@gmail.com:123456
 
 ---
 
-### 3️⃣ Get All Videos
+### 3 Get All Videos
 
 **GET** `/api/videos`
 
@@ -93,7 +93,7 @@ Accessible by:
 
 ---
 
-### 4️⃣ Create Video (ADMIN Only)
+### 4 Create Video (ADMIN Only)
 
 **POST** `/api/videos`
 
@@ -107,13 +107,13 @@ Accessible by:
 
 ---
 
-### 5️⃣ Update Video (ADMIN Only)
+### 5 Update Video (ADMIN Only)
 
 **PUT** `/api/videos/{id}`
 
 ---
 
-### 6️⃣ Delete Video (ADMIN Only)
+### 6 Delete Video (ADMIN Only)
 
 **DELETE** `/api/videos/{id}`
 
@@ -138,16 +138,16 @@ CREATE DATABASE rentvideobasic;
 
 ---
 
-## ▶️ How To Run The Project
+## ▶ How To Run The Project
 
-### 1️⃣ Clone Repository
+### 1 Clone Repository
 
 ```
 git clone https://github.com/pushpa-2404-soft-dev/video_rental_basic.git
 cd video_rental_basic
 ```
 
-### 2️⃣ Run Application
+### 2 Run Application
 
 ```
 ./gradlew bootRun
@@ -161,7 +161,7 @@ gradlew.bat bootRun
 
 ---
 
-## 📦 Build JAR File
+##  Build JAR File
 
 ```
 ./gradlew build
@@ -175,7 +175,7 @@ java -jar build/libs/video_rental_basic-0.0.1-SNAPSHOT.jar
 
 ---
 
-## 🧪 Testing Using Postman
+##  Testing Using Postman
 
 1. Register user
 2. Use Basic Auth in Authorization tab
@@ -183,7 +183,7 @@ java -jar build/libs/video_rental_basic-0.0.1-SNAPSHOT.jar
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 com.crio.video_rental_basic
@@ -198,7 +198,7 @@ com.crio.video_rental_basic
 
 ---
 
-## ✅ Features Implemented
+##  Features Implemented
 
 ✔ User Registration
 ✔ BCrypt Password Hashing
@@ -211,7 +211,7 @@ com.crio.video_rental_basic
 
 ---
 
-## 📌 Author
+## Author
 
 Pushparaj B
 
@@ -229,4 +229,4 @@ https://github.com/pushpa-2404-soft-dev/video_rental_basic
 
 ---
 
-# 🎯 Assignment Completed Successfully
+# Assignment Completed Successfully
