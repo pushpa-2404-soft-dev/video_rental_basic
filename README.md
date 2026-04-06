@@ -12,7 +12,7 @@ This project demonstrates authentication, role-based authorization, and CRUD ope
 * Spring Boot 
 * Spring Security (Basic Authentication)
 * Spring Data JPA (Hibernate)
-* MySQL
+* MySQLP
 * Gradle
 * BCrypt Password Encoder
 

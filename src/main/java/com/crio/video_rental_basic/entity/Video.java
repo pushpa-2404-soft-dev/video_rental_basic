@@ -18,5 +18,7 @@ public class Video {
   private String title;
   private String director;
   private String genre;
+
+  @Builder.Default   
   private boolean available = true;
 }
